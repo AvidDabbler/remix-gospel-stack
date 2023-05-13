@@ -1,0 +1,18 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+1813,80,"Blue Route","Blue Route",Blue Route,3,,0071CA,FFFFFF
+1814,80,"Red Route","Red Route",Red Route,3,,F70101,FFFFFF
+1815,80,"Orange Route ","Orange Route ",Orange Route ,3,,FF6600,FFFFFF
+1816,80,"Gold Route","Gold Route",Gold Route,3,,CCAC00,FFFFFF
+1847,80,"Rx Route","Redbird Express",Redbird Express,3,,AD0101,FFFFFF
+1848,80,"Purple Route","Purple Route",Purple Route,3,,D1069B,FFFFFF
+1849,80,"Aqua Route","Aqua Route",Aqua Route,3,,09E8BB,FFFFFF
+1851,80,"Yellow Route","Yellow Route",Yellow Route,3,,EEFF00,0A0A0A
+1852,80,"Tan Route","Tan Route",Tan Route,3,,FC9F42,FFFFFF
+1885,80,"Green Route","Green Route",Green Route,3,,208029,FFFFFF
+1886,80,"Brown Route","Brown Route",Brown Route,3,,B55515,FFFFFF
+1895,80,"Lime Route","Lime Route",Lime Route,3,,52F00E,FFFFFF
+1897,80,"Pink Route","Pink Route",Pink Route,3,,FF4073,FFFFFF
+2701,80,"Silver Route","Silver Route",Silver,3,,787878,FFFFFF
+4472,80,"Lime Express Route","Lime Express Route",lime,3,,9FFF75,FFFFFF
+4502,80,"Red Express","Red Express Route",Red Express,3,,FF3A33,FFFFFF
+5861,80,"Sp","Sapphire",Sapphire ,3,,2B13A1,FFFFFF

@@ -1,0 +1,7 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+1690,71,"400","400",Route 400,3,https://citycommbus.com,FF1239,FFFFFF
+1691,71,"500","500",Commerce Connect Route(500),3,https://citycommbus.com,F236FF,FFFFFF
+1692,71,"200","200",Route(200),3,https://citycommbus.com,26AAFF,FFFFFF
+1693,71,"100","100",Green Route (100),3,https://citycommbus.com,378A0D,FFFFFF
+1694,71,"300","300",Route 300 ,3,https://citycommbus.com,E8F70A,050304
+1695,71,"600","600",Route 600,3,https://citycommbus.com/,B0A5AC,FFFFFF

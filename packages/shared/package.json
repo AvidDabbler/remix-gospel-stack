@@ -1,0 +1,41 @@
+{
+  "name": "@transitchat/shared",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "files": [
+    "./src/index.ts"
+  ],
+  "scripts": {
+    "lint:fix": "eslint --config .eslintrc.commit.js --fix --cache --ext .ts,.tsx src",
+    "lint": "eslint --config .eslintrc.js --ext .ts,.tsx src",
+    "prettier": "prettier --check src",
+    "prettier:fix": "prettier --write src",
+    "typecheck": "tsc --noEmit"
+  },
+  "sideEffects": false,
+  "dependencies": {
+    "@transitchat/database": "*",
+    "@types/geojson": "^7946.0.10",
+    "axios": "^1.4.0",
+    "csv-parse": "^5.0.4",
+    "dayjs": "^1.11.7",
+    "gtfs-realtime-bindings": "^1.1.1",
+    "gtfs-types": "^2.2.0",
+    "json2csv": "6.0.0-alpha.2",
+    "moment-timezone": "^0.5.43",
+    "pg-promise": "^11.4.3",
+    "pgp": "^0.1.0",
+    "react": "^18.2.0",
+    "tailwind-merge": "^1.10.0"
+  },
+  "devDependencies": {
+    "@transitchat/eslint-config": "*",
+    "@types/json2csv": "^5.0.3",
+    "@types/node": "^18.15.3",
+    "@types/react": "^18.2.0",
+    "eslint": "8.38.0",
+    "i": "^0.3.7",
+    "prettier": "^2.8.4",
+    "typescript": "5.0.4"
+  }
+}

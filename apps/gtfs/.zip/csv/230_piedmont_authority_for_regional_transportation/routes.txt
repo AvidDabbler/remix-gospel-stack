@@ -1,0 +1,13 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+5862,230,"17","17 Kernersville Express",Express,3,https://www.partnc.org/179/Route-17,C299C1,FFFFFF
+5864,230,"1","01 Winston-Salem Express",Express,3,,9A3ABA,FFFFFF
+5865,230,"4","04 Alamance Burlington Express",Express,3,,D4260F,FFFFFF
+5866,230,"2","02 Greensboro Express",Express,3,,3ABA62,FFFFFF
+5868,230,"3","03 High Point Express",Express,3,,6C6CC1,FFFFFF
+5869,230,"9","09 Davidson County Greensboro Express",Express,3,,07875C,FFFFFF
+5870,230,"10","10 Randolph Express",Express,3,,E87F0E,FFFFFF
+5873,230,"20","20 NW Route - Pleasant Ridge",Shuttle,3,,FFCD33,000000
+5877,230,"21","21 NE Route - Chimney Rock",Shuttle,3,,8DB4E2,FFFFFF
+5878,230,"22","22 SW Route - Sandy Ridge",Shuttle,3,,FF0000,FFFFFF
+5879,230,"23","23 SE Route - Piedmont Parkway",Shuttle,3,,00B050,FFFFFF
+5880,230,"24","24 Burgess/Regional Rd. Route",Shuttle,3,,008000,FFFFFF

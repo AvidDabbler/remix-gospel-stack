@@ -1,0 +1,35 @@
+{
+  "exclude": ["./cypress","./cypress.config.ts"],
+  "include": ["remix.env.d.ts", "**/*.ts", "**/*.tsx"],
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable", "ES2019"],
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "target": "ES2019",
+    "strict": true,
+    "allowJs": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "baseUrl": ".",
+    "paths": {
+      "~/*": ["./app/*"],
+      "@transitchat/ui/*": ["../../packages/ui/src/*"],
+      "@transitchat/ui": ["../../packages/ui/src/index"],
+      "@transitchat/business/*": ["../../packages/business/src/*"],
+      "@transitchat/business": ["../../packages/business/src/index"],
+      "@transitchat/database/*": ["../../packages/database/src/*"],
+      "@transitchat/database": ["../../packages/database/src/index"],
+      "@transitchat/internal-nobuild": ["../../packages/internal-nobuild/src/index"],
+      "@transitchat/internal-nobuild/*": ["../../packages/internal-nobuild/src/*"],
+    },
+
+    // Remix takes care of building everything in `remix build`.
+    "noEmit": true
+  },
+  // "references": [{ "path": "../../packages/ui/tsconfig.json" }],
+}

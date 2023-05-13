@@ -1,0 +1,41 @@
+{
+  "name": "@transitchat/database",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist/**"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "clean": "rimraf .turbo node_modules dist",
+    "db:migrate:deploy": "prisma migrate deploy",
+    "db:migrate:dev": "prisma migrate dev",
+    "db:push": "prisma db push",
+    "db:seed": "tsx src/seed.ts",
+    "db:migrate:force": "prisma migrate reset --force",
+    "dev": "tsup --watch",
+    "format": "prisma format",
+    "generate": "prisma generate",
+    "lint": "eslint ./src --fix",
+    "prebuild": "npm run generate",
+    "predev": "npm run generate",
+    "studio": "prisma studio"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.13.0",
+    "pg-promise": "^11.4.3"
+  },
+  "devDependencies": {
+    "@transitchat/eslint-config-vite": "*",
+    "@transitchat/tsconfig": "*",
+    "@types/node": "^18.16.0",
+    "prisma": "^4.13.0",
+    "rimraf": "^5.0.0",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4"
+  }
+}

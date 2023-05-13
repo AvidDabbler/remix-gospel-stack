@@ -1,0 +1,13 @@
+{
+  "extends": "@transitchat/tsconfig/node16.json",
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "tsup.config.ts"],
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "paths": {
+      "@transitchat/database/*": ["../database/src/*"],
+      "@transitchat/database": ["../database/src/index"],
+    }
+  },
+  "exclude": ["node_modules"]
+}
